@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(255, 208, 208);
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(104, 255, 104);
+    width: 300px;
+    height: 300px;
+}
+.button{
+    margin-top: 10px;
+}
+.alert{
+    text-align: center;
+    background-color: white;
+    user-select: none;
+    opacity: 0;
+    z-index: -1;
+    width: 300px;
+    padding: 9px 6px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    transition:all 0.4s ease;
+}
+.alertShower{
+    height: auto;
+    opacity: 1;
+    z-index: 1;
+    bottom: 50px;
+}
